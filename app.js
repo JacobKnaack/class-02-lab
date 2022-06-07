@@ -8,8 +8,8 @@ let likesProgramming = confirm('Do you like Programming');
 console.log('Your name is: ' + user);
 
 if (user) {
-  console.log('hello ' +  user + "!!");
-} 
+  console.log('hello ' + user + '!!');
+}
 
 if (likesProgramming) {
   alert('Great, so do I');
