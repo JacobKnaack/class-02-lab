@@ -8,7 +8,6 @@ let id = prompt('Who are you?');
 if (id) {
 
   let age = prompt('How old are you?');
-  
   // From the id, what is their legal age?
   if (age >= 21) {
 
@@ -17,7 +16,6 @@ if (id) {
     const maxCapacity = 100;
 
     if (currentOccupancy < maxCapacity) {
-    
       // is the user armed?
       // is the user drunk?
       // Do you have any booze / bag check?
@@ -33,7 +31,6 @@ if (id) {
   } else {
     alert('Not old enough');
   }
-  
 
 } else {
   alert('You need id');
